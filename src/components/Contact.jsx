@@ -13,8 +13,8 @@ const Contact = () => {
           <h1 className="text-4xl font-small mb-2 tracking-wider uppercase">
             Contact
           </h1>
-          <p className="mb-2">kamila.samcz@uk</p>
-          <p className="mb-2">+48 123456789</p>
+          <p className="mb-2">kamila@samcz.uk</p>
+
           <div className="flex gap-x-4 mt-4">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-white/50 duration-300" />
