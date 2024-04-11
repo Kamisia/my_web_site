@@ -9,9 +9,14 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
         alt={title}
         className="w-full object-cover rounded-t-lg h-64"
       />
-      <div className="capitalize p-8">
-        <h2 className="text-xl tracking-wide font-medium">{title}</h2>
-        <p className="mt-4 text-darkGray leading-loose">{text}</p>
+      <div className=" p-4 h-50">
+        <h2 className="text-xl  h-12 tracking-wide font-medium capitalize">
+          {title}
+        </h2>
+        <div className=" text-div h-40  overflow-auto ">
+          <p className="   mt-1 text-darkGray leading-loose text-m">{text}</p>
+        </div>
+
         <div className="mt-4 flex gap-x-4">
           <a href={url} target="_blank" rel="noopener noreferrer">
             <TbWorldWww className="h-8 w-8 text-lightAccent hover:text-main duration-300" />

@@ -14,3 +14,13 @@
   --detail-color: #06d6a0;
   --accent-color: #ef476f;
 }
+
+.text-div::-webkit-scrollbar {
+  width: 5px;
+}
+
+.text-div::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  cursor: pointer;
+  border-radius: 5px;
+}

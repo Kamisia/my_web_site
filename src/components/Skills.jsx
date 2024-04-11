@@ -9,26 +9,34 @@ const Skills = () => {
         <SkillsCard
           icon={<FaHtml5 className="h-16 w-16 text-main" />}
           title={"HTML"}
-          progressValue={85}
-          text={"bal bla b;a bsiugyugihkjj"}
+          progressValue={75}
+          text={
+            "I have a solid intermediate-level knowledge of HTML, which allows me to create responsive websites."
+          }
         />
         <SkillsCard
           icon={<FaCss3 className="h-16 w-16 text-main" />}
           title={"CSS"}
           progressValue={75}
-          text={"bal bla b;a bsiugyugihkjj"}
+          text={
+            "I have experience in creating responsive and aesthetically pleasing website layouts using CSS. I possess skills in designing user interfaces, applying CSS animations, and creating visual effects."
+          }
         />
         <SkillsCard
           icon={<FaJs className="h-16 w-16 text-main" />}
           title={"Java Script"}
-          progressValue={60}
-          text={"bal bla b;a bsiugyugihkjj"}
+          progressValue={65}
+          text={
+            "I have experience in creating interactive functions and visual effects using pure JavaScript. In my projects, I have utilized JavaScript for manipulating DOM elements, handling forms, and executing asynchronous HTTP requests."
+          }
         />
         <SkillsCard
           icon={<FaReact className="h-16 w-16 text-main" />}
           title={"React"}
-          progressValue={55}
-          text={"bal bla b;a bsiugyugihkjj"}
+          progressValue={60}
+          text={
+            "I have a strong understanding of React, enabling me to build dynamic and interactive user interfaces. I have utilized React to develop advanced components and web applications, such as e-commerce applications."
+          }
         />
       </div>
     </section>

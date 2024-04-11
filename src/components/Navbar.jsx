@@ -10,15 +10,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-lightMain fixed w-full z-10 top-0 flex-no-wrap items-center justify-between  py-2 shadow-md shadow-black/5 ">
-      <div className="max-w-7xl  m-2 px-4">
+    <nav className="bg-lightMain fixed w-screen z-10 top-0 flex-no-wrap items-center justify-between  shadow-md shadow-black/5 ">
+      <div className="max-w-7xl  m-2 pr-1 pl-1">
         <div className="flex justify-between">
           <div className="flex items-center">
             <h2 className="text-3xl font-bold">
               Kamila<span className="text-main">Samczuk</span>
             </h2>
 
-            <div className="hidden md:block ml-10 flex gap-x-3">
+            <div className="hidden lg:block ml-10 flex gap-x-3">
               {links.map((link) => {
                 const { id, href, text } = link;
                 return (
@@ -33,10 +33,10 @@ const Navbar = () => {
               })}
             </div>
           </div>
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               onClick={toggleNavbar}
-              className="text-black hover:text-main focus:outline-none"
+              className="mr-1 ml-2 text-black hover:text-main focus:outline-none"
             >
               <svg
                 className="h-6 w-6"
@@ -53,13 +53,13 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className="md:block">
+          <div className="lg:block ">
             <div className="flex items-center">
               <a
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" px-3 py-2"
+                className=" pr-2 py-2"
               >
                 <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
               </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" px-3 py-2"
+                className=" pr-2 py-2"
               >
                 <FaLinkedin className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
               </a>

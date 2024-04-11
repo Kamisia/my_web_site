@@ -1,5 +1,6 @@
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import ButtonCVDownload from "./ButtonCVDownload";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
             I'm <span className="text-main">Kamila</span>
           </h1>
           <p className="mt-4  text-3xl text-darkGray capitalize tracking-wide">
-            Junior Front-End Developer
+            Front-End Developer
           </p>
           <p className="mt-2 text-lg text-gray capitalize tracking-wide">
             Coding. Creation. Conversion.
@@ -22,6 +23,7 @@ const Hero = () => {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
             </a>
+            <ButtonCVDownload />
           </div>
         </article>
         <article className="hidden md:block">

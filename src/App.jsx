@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 const App = () => {
   return (
-    <div className="text-black ">
+    <div className="text-black  w-screen m-0 p-0">
       <Navbar />
       <Hero />
       <Skills />
