@@ -2,9 +2,9 @@ import aboutSvg from "../assets/about.svg";
 import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
-    <section className="bg-white p-10" id="about">
+    <section className="bg-white p-2" id="about">
       <SectionTitle text="About" />
-      <div className="align-element grid lg:grid-cols-2 items-center gap-16 p-10">
+      <div className="align-element grid lg:grid-cols-2 items-center gap-16 p-2">
         <img src={aboutSvg} className="w-full h-64 hidden lg:block" />
         <article>
           <p className="text-gray mt-5 leading-loose p-5">

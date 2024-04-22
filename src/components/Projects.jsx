@@ -11,7 +11,7 @@ import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
-    <section className="p-10 align-element bg-lightMain" id="projects">
+    <section className="p-2 align-element bg-lightMain" id="projects">
       <SectionTitle text="Projects" />
       <div className="p-10 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
         <ProjectsCard

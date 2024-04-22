@@ -3,7 +3,7 @@ import SkillsCard from "./SkillsCard";
 import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 const Skills = () => {
   return (
-    <section className="p-10 align-element bg-lightMain " id="skills">
+    <section className="p-2 align-element bg-lightMain " id="skills">
       <SectionTitle text="Skills" />
       <div className="p-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <SkillsCard
