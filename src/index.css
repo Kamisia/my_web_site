@@ -14,12 +14,17 @@
   --detail-color: #06d6a0;
   --accent-color: #ef476f;
 }
+body {
+  overflow-x: hidden;
+}
 
-.text-div::-webkit-scrollbar {
+.text-div::-webkit-scrollbar,
+body::-webkit-scrollbar {
   width: 5px;
 }
 
-.text-div::-webkit-scrollbar-thumb {
+.text-div::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
   background: var(--accent-color);
   cursor: pointer;
   border-radius: 5px;
