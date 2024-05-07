@@ -19,7 +19,11 @@ const Contact = () => {
             >
               <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-white/50 duration-300" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/kamila-samczuk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin className="h-8 w-8 text-lightAccent hover:text-white/50 duration-300" />
             </a>
           </div>
