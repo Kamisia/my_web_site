@@ -10,9 +10,12 @@
   --light-gray-color: #9f9d9d;
   --gray-color: #6c6c6c;
   --light-main-color: #e4f0f4;
-  --main-color: #118ab2;
+  --main-color: #61dafb;
   --detail-color: #06d6a0;
   --accent-color: #ef476f;
+}
+html {
+  background: var(--white-color);
 }
 body {
   overflow-x: hidden;
