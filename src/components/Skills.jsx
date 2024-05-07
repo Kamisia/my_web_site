@@ -10,7 +10,7 @@ const Skills = () => {
           icon={<FaHtml5 className="h-16 w-16 text-main" />}
           title={"HTML"}
           text={
-            "I have a solid intermediate-level knowledge of HTML, which allows me to create responsive websites."
+            "I have a solid knowledge of HTML, which allows me to create responsive websites."
           }
         />
         <SkillsCard
