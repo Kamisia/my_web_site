@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-7xl  m-2 pr-1 pl-1">
         <div className="flex justify-between">
           <div className="flex items-center">
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-3xl">
               Kamila<span className="text-main">Samczuk</span>
             </h2>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className="lg:block ">
             <div className="flex items-center">
               <a
-                href="#"
+                href="https://github.com/Kamisia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" pr-2 py-2"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/kamila-samczuk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" pr-2 py-2"
