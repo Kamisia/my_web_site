@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { links } from "../data";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import SocialButtonComponent from "./SocialButtonComponent";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,24 +55,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className="lg:block ">
-            <div className="flex items-center">
-              <a
-                href="https://github.com/Kamisia"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" pr-2 py-2"
-              >
-                <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kamila-samczuk/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" pr-2 py-2"
-              >
-                <FaLinkedin className="h-8 w-8 text-lightAccent hover:text-main duration-300" />
-              </a>
-            </div>
+            <SocialButtonComponent />
           </div>
         </div>
       </div>

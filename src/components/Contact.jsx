@@ -1,5 +1,5 @@
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import ButtonCVDownload from "./ButtonCVDownload";
+import SocialButtonComponent from "./SocialButtonComponent";
 
 const Contact = () => {
   return (
@@ -11,22 +11,7 @@ const Contact = () => {
           </h1>
           <p className="mb-2 p-2">kamila@samcz.uk</p>
 
-          <div className="flex gap-x-4 mt-4 p-2">
-            <a
-              href="https://github.com/Kamisia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithubSquare className="h-8 w-8 text-lightAccent hover:text-white/50 duration-300" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/kamila-samczuk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin className="h-8 w-8 text-lightAccent hover:text-white/50 duration-300" />
-            </a>
-          </div>
+          <SocialButtonComponent />
         </div>
         <div className="mt-5">
           <ButtonCVDownload />
