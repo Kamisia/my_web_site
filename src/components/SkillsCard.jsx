@@ -1,14 +1,12 @@
 const SkillsCard = ({ icon, title, text }) => {
   return (
-    <article>
-      <div className="align-element  justify-start ">
-        <div>{icon}</div>
-        <div className="w-full md:col-span-2">
-          <h4 className="mt-3 mb-3 text-black text-2xl">{title}</h4>
-          <div className="w-full bg-lightAccent/35 rounded-full "></div>
-        </div>
+    <article className="max-w-xs min-h-40  flex-col  columns-1 ">
+      <div className="align-element mt-0 mb-7  justify-center flex ">
+        <div className="pt-1">{icon}</div>
+
+        <h4 className=" ml-1 font-thin text-black text-2xl">{title}</h4>
       </div>
-      <p className="mt-6 text-gray justify-start">{text}</p>
+      <p className="mt-auto mb-auto text-gray text-justify"> {text}</p>
     </article>
   );
 };
