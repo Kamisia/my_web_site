@@ -10,28 +10,48 @@ const Skills = () => {
           icon={<FaHtml5 className="h-7 w-7 text-main" />}
           title={"HTML"}
           text={
-            "I have a solid intermediate-level knowledge of HTML, which allows me to create responsive websites."
+            <p>
+              I have a solid intermediate-level knowledge of&nbsp;HTML, which
+              allows me&nbsp;to&nbsp;create responsive websites.
+            </p>
           }
         />
         <SkillsCard
           icon={<FaCss3 className="h-7 w-7 text-main" />}
           title={"CSS"}
           text={
-            "I have experience in creating responsive and aesthetically pleasing website layouts using CSS. I possess skills in designing user interfaces, applying CSS animations, and creating visual effects."
+            <p>
+              I have experience in creating responsive and&nbsp;aesthetically
+              pleasing website layouts using CSS. I&nbsp;possess skills
+              in&nbsp;designing user interfaces, applying CSS animations,
+              and&nbsp;creating visual effects.
+            </p>
           }
         />
         <SkillsCard
           icon={<FaJs className="h-7 w-7 text-main" />}
           title={"Java Script"}
           text={
-            "I have experience in creating interactive functions and visual effects using pure JavaScript. In my projects, I have utilized JavaScript for manipulating DOM elements, handling forms, and executing asynchronous HTTP requests."
+            <p>
+              I have experience in&nbsp;creating interactive functions
+              and&nbsp;visual effects using pure JavaScript.
+              In&nbsp;my&nbsp;projects, I&nbsp;have utilized JavaScript
+              for&nbsp;manipulating DOM elements, handling forms,
+              and&nbsp;executing asynchronous HTTP requests.
+            </p>
           }
         />
         <SkillsCard
           icon={<FaReact className="h-7 w-7 text-main" />}
           title={"React"}
           text={
-            "I have a strong understanding of React, enabling me to build dynamic and interactive user interfaces. I have utilized React to develop advanced components and web applications, such as e-commerce applications."
+            <p>
+              I have a strong understanding of&nbsp;React, enabling
+              me&nbsp;to&nbsp;build dynamic and&nbsp;interactive user
+              interfaces. I&nbsp;have utilized React to&nbsp;develop advanced
+              components and&nbsp;web applications, such as&nbsp;e-commerce
+              applications.
+            </p>
           }
         />
       </div>
