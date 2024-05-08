@@ -16,6 +16,8 @@
 }
 html {
   background: var(--white-color);
+
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
