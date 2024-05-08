@@ -3,18 +3,20 @@ import SocialButtonComponent from "./SocialButtonComponent";
 
 const Contact = () => {
   return (
-    <section className="bg-darkMain p-2 text-white flex flex-col " id="contact">
-      <div className="flex flex-col md:flex-row justify-between m-5 ">
-        <div className="md:w-1/2 ">
-          <h1 className="text-4xl font-small mb-2 tracking-wider uppercase">
-            Contact
-          </h1>
-          <p className="mb-2 p-2">kamila@samcz.uk</p>
+    <section className="bg-darkMain  text-white algin-element" id="contact">
+      <h1 className="text-3xl text-center font-thin mb-2 tracking-wider uppercase">
+        Contact
+      </h1>
+      <div className="place-content-center max-w-lg mr-auto ml-auto">
+        <div className=" p-6 grid place-content-between grid-cols-2 mt-auto mb-auto ">
+          <div>
+            <p className="mb-2">kamila@samcz.uk</p>
 
-          <SocialButtonComponent />
-        </div>
-        <div className="mt-5">
-          <ButtonCVDownload />
+            <SocialButtonComponent />
+          </div>
+          <div className="flex justify-end items-center">
+            <ButtonCVDownload />
+          </div>
         </div>
       </div>
     </section>
