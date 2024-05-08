@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { links } from "../data";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { CiMenuBurger } from "react-icons/ci";
+
 import SocialButtonComponent from "./SocialButtonComponent";
 
 const Navbar = () => {
@@ -19,14 +20,14 @@ const Navbar = () => {
               Kamila<span className="text-main">Samczuk</span>
             </h2>
 
-            <div className="hidden lg:block ml-10 flex gap-x-3">
+            <div className="hidden md:block ml-10 flex gap-x-3">
               {links.map((link) => {
                 const { id, href, text } = link;
                 return (
                   <a
                     key={id}
                     href={href}
-                    className="uppercase text-lg tracking-wide hover:text-main  px-3 py-2"
+                    className="uppercase text-md font-thin tracking-wide hover:text-main  px-3 py-2"
                   >
                     {text}
                   </a>
@@ -34,24 +35,14 @@ const Navbar = () => {
               })}
             </div>
           </div>
-          <div className="lg:hidden flex items-center">
+          <div className="md:hidden flex items-center">
             <button
               onClick={toggleNavbar}
-              className="mr-1 ml-2 text-black hover:text-main focus:outline-none"
+              className={`transform transition-transform duration-200 active:rotate-90 ${
+                isOpen ? "rotate-90" : "rotate-0"
+              }  ease-in-out mr-1 ml-2 text-black hover:text-main focus:outline-none`}
             >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <CiMenuBurger />
             </button>
           </div>
           <div className="lg:block ">
@@ -60,24 +51,30 @@ const Navbar = () => {
         </div>
       </div>
       {/* Mobile menu */}
-      {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {links.map((link) => {
-              const { id, href, text } = link;
-              return (
-                <a
-                  key={id}
-                  href={href}
-                  className=" block px-3 py-2 capitalize text-lg tracking-wide hover:text-main duration-300"
-                >
-                  {text}
-                </a>
-              );
-            })}
-          </div>
+
+      <div
+        className={`transition duration-300 linear ${
+          isOpen
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 hidden translate-y-1"
+        }`}
+      >
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          {links.map((link) => {
+            const { id, href, text } = link;
+            return (
+              <a
+                key={id}
+                href={href}
+                className=" block px-3 py-2 capitalize text-lg tracking-wide hover:text-main duration-300"
+                onClick={toggleNavbar}
+              >
+                {text}
+              </a>
+            );
+          })}
         </div>
-      )}
+      </div>
     </nav>
   );
 };
