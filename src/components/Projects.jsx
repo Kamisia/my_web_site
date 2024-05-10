@@ -1,9 +1,9 @@
 import ProjectsCard from "./ProjectsCard";
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
+import QOTDScreenshot from "../assets/QOTDScreenshot.png";
+import SunSeeker from "../assets/SunSeekerScreenshot.png";
+import ScreenSafari from "../assets/ScreenSafariScreenshot.png";
+import fakeBookStore from "../assets/fakeBookStoreScreenshot.png";
+import StartNowScreenshot from "../assets/StartNowScreenshot.png";
 
 import SectionTitle from "./SectionTitle";
 
@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="p-10 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
         <ProjectsCard
           url={"https://kamisia.github.io/fake-book-store/"}
-          img={project4}
+          img={fakeBookStore}
           github={"https://github.com/Kamisia/fake-book-store"}
           title={"Fake Book Store"}
           text={
@@ -23,7 +23,7 @@ const Projects = () => {
         />
         <ProjectsCard
           url={" https://kamisia.github.io/QOTD_APP/"}
-          img={project1}
+          img={QOTDScreenshot}
           github={"https://github.com/Kamisia/QOTD_APP"}
           title={"Your Quote Of The Day"}
           text={
@@ -33,7 +33,7 @@ const Projects = () => {
 
         <ProjectsCard
           url={" https://kamisia.github.io/Screen_Safari/"}
-          img={project3}
+          img={ScreenSafari}
           github={"https://github.com/Kamisia/Screen_Safari"}
           title={"Screen Safari"}
           text={
@@ -43,7 +43,7 @@ const Projects = () => {
 
         <ProjectsCard
           url={"https://kamisia.github.io/task-manager-app/"}
-          img={project5}
+          img={StartNowScreenshot}
           github={"https://github.com/Kamisia/task-manager-app"}
           title={"Start Now, Succeed "}
           text={
@@ -52,7 +52,7 @@ const Projects = () => {
         />
         <ProjectsCard
           url={" https://kamisia.github.io/weather_app/"}
-          img={project2}
+          img={SunSeeker}
           github={"https://github.com/Kamisia/weather_app"}
           title={"Sun Seeker"}
           text={
