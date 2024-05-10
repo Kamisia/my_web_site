@@ -4,7 +4,7 @@ import SunSeeker from "../assets/SunSeekerScreenshot.png";
 import ScreenSafari from "../assets/ScreenSafariScreenshot.png";
 import fakeBookStore from "../assets/fakeBookStoreScreenshot.png";
 import StartNowScreenshot from "../assets/StartNowScreenshot.png";
-
+import TripPlanner from "../assets/TripPlannerScreenshot.png";
 import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
@@ -58,6 +58,13 @@ const Projects = () => {
           text={
             "Sun Seeker is a weather application built with React.js, allowing users to quickly check current weather conditions for various locations. Through integration with the OpenWeatherMap API, users can easily search for places and obtain information about temperature, humidity, and wind speed. The project is designed responsively, ensuring an optimal user experience across different devices. The aim of the application is to provide fast and convenient access to current weather data, enabling users to better plan their outdoor activities. Technologies used include HTML, CSS, JavaScript, and the React.js framework, ensuring scalability and performance of the application."
           }
+        />
+        <ProjectsCard
+          url={"https://kamisia.github.io/trip-planner-app/"}
+          img={TripPlanner}
+          github={"https://github.com/Kamisia/trip-planner-app"}
+          title={"Trip Planner"}
+          text={"The application is still under development."}
         />
       </div>
     </section>
