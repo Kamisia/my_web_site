@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section className="p-2 align-element bg-lightMain " id="skills">
       <SectionTitle text="Skills" />
-      <div className="  p-10 grid gap-8 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3  ">
+      <div className="  p-10 grid gap-8 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
         <SkillsCard
           icon={<FaHtml5 className="h-7 w-7 text-main" />}
           title={"HTML"}
