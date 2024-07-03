@@ -29,8 +29,7 @@ const About = () => {
             <br />
             In the long run, I aim to&nbsp;deepen my knowledge
             of&nbsp;PostgreSQL and&nbsp;broaden my skills as a full-stack
-            developer. My experience in&nbsp;learning Java programming language
-            gives me a&nbsp;solid foundation for further growth.
+            developer.
             <br />
             <br />
             Currently, I am seeking inspiring projects and&nbsp;teams where

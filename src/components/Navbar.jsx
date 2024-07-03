@@ -35,10 +35,10 @@ const Navbar = () => {
               })}
             </div>
           </div>
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden items-center">
             <button
               onClick={toggleNavbar}
-              className={`transform transition-transform duration-200 active:rotate-90 ${
+              className={`transform transition-transform duration-200 active:rotate-90 md:hidden flex${
                 isOpen ? "rotate-90" : "rotate-0"
               }  ease-in-out mr-1 ml-2 text-black hover:text-main focus:outline-none`}
             >
