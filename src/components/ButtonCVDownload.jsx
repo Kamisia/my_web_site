@@ -1,4 +1,4 @@
-import cv from "../assets/KamilaSamczuk.pdf";
+import cv from "../assets/KamilaSamczukCurriculumVitae.pdf";
 
 const ButtonCVDownload = () => {
   return (
