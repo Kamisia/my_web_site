@@ -6,12 +6,22 @@ import fakeBookStore from "../assets/fakeBookStoreScreenshot.png";
 import StartNowScreenshot from "../assets/StartNowScreenshot.png";
 import TripPlanner from "../assets/TripPlannerScreenshot.png";
 import SectionTitle from "./SectionTitle";
+import zennailzoon from "../assets/zennailzoon.png";
 
 const Projects = () => {
   return (
     <section className="p-2 align-element bg-lightMain" id="projects">
       <SectionTitle text="Projects" />
       <div className="p-10 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <ProjectsCard
+          url={"https://kamisia.github.io/ZenNailZoon/"}
+          img={zennailzoon}
+          github={"https://github.com/Kamisia/ZenNailZoon"}
+          title={"Zen Nail Zoon"}
+          text={
+            "Zen Nail Zoon is a project for a nail styling salon's showcase website. In the future, I plan to add the functionality of booking appointments with selected stylists."
+          }
+        />
         <ProjectsCard
           url={"https://kamisia.github.io/fake-book-store/"}
           img={fakeBookStore}
