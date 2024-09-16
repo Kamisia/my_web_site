@@ -19,7 +19,7 @@ const Projects = () => {
           github={"https://github.com/Kamisia/ZenNailZoon"}
           title={"Zen Nail Zoon"}
           text={
-            "Zen Nail Zoon is a project for a nail styling salon's showcase website. In the future, I plan to add the functionality of booking appointments with selected stylists."
+            "A sample business card website for a nail salon, allowing users to contact the salon via a contact form. The form validation is handled using the React Hook Form library. The application is written in TypeScript with the React.js library."
           }
         />
         <ProjectsCard
@@ -47,7 +47,7 @@ const Projects = () => {
           github={"https://github.com/Kamisia/Screen_Safari"}
           title={"Screen Safari"}
           text={
-            "The Screen Safari project utilizes the TMDB API to showcase movie posters from two categories: 'Top Rented' and 'Most Popular', presented in an interactive carousel format. The application also allows users to search for movies by name, enhancing usability. Upon hovering over a poster, users are presented with a movie description along with its rating. While crafting the code, I paid particular attention to its readability and modularity to facilitate understanding and potential project expansion. I aimed to create a developer-friendly environment that supports efficient work on the application. "
+            "Screen Safari is a project that retrieves data from the TMDB API and presents it in a carousel of movie posters in two categories: "Most Popular" and "Most Rented." The application also allows users to search for movies by title. Hovering over a poster displays the movie's rating, and clicking on it opens a window with detailed information, such as the title, description, and rating. While developing the project, the priority was on code readability and modularity to ensure ease of understanding and future scalability. My goal was to create a developer-friendly environment that facilitates efficient work on the application. "
           }
         />
 
@@ -74,7 +74,7 @@ const Projects = () => {
           img={TripPlanner}
           github={"https://github.com/Kamisia/trip-planner-app"}
           title={"Trip Planner"}
-          text={"The application is still under development."}
+          text={"The Planner Trip application is still under development. Currently, it features a loading page with two buttons: Login and SignUp. Clicking the respective button displays either the login or registration form, both validated using the Formik library. Unfortunately, the functionality of these forms is not yet fully implemented. The application is built in React using JavaScript."}
         />
       </div>
     </section>
