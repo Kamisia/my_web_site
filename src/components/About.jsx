@@ -45,7 +45,8 @@ const About = () => {
             <p>Feel free to reach out to discuss potential collaboration</p>
           </div>
         </article>
-        <img src={aboutSvg} className="w-full h-64 hidden lg:block" />
+
+        <img src={aboutSvg} className="w-full h-96 hidden lg:block" />
       </div>
     </section>
   );
