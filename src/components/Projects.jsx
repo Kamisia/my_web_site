@@ -32,26 +32,6 @@ const Projects = () => {
           }
         />
         <ProjectsCard
-          url={" https://kamisia.github.io/QOTD_APP/"}
-          img={QOTDScreenshot}
-          github={"https://github.com/Kamisia/QOTD_APP"}
-          title={"Your Quote Of The Day"}
-          text={
-            "The 'Your Quote Of The Day' project is the result of my work using React.js technology. Through this application, users can enjoy randomly generated quotes via the quotableAPI. By ensuring responsiveness, I have ensured that the interface is comfortable and user-friendly on various devices. Additionally, I organized the code in a way that will facilitate future development of the project."
-          }
-        />
-
-        <ProjectsCard
-          url={" https://kamisia.github.io/Screen_Safari/"}
-          img={ScreenSafari}
-          github={"https://github.com/Kamisia/Screen_Safari"}
-          title={"Screen Safari"}
-          text={
-            "Screen Safari is a project that retrieves data from the TMDB API and presents it in a carousel of movie posters in two categories: "Most Popular" and "Most Rented." The application also allows users to search for movies by title. Hovering over a poster displays the movie's rating, and clicking on it opens a window with detailed information, such as the title, description, and rating. While developing the project, the priority was on code readability and modularity to ensure ease of understanding and future scalability. My goal was to create a developer-friendly environment that facilitates efficient work on the application. "
-          }
-        />
-
-        <ProjectsCard
           url={"https://kamisia.github.io/task-manager-app/"}
           img={StartNowScreenshot}
           github={"https://github.com/Kamisia/task-manager-app"}
@@ -70,11 +50,33 @@ const Projects = () => {
           }
         />
         <ProjectsCard
+          url={" https://kamisia.github.io/Screen_Safari/"}
+          img={ScreenSafari}
+          github={"https://github.com/Kamisia/Screen_Safari"}
+          title={"Screen Safari"}
+          text={
+            "Screen Safari is a project that retrieves data from the TMDB API and presents it in a carousel of movie posters in two categories: 'Most Popular' and 'Most Rented.' The application also allows users to search for movies by title. Hovering over a poster displays the movie's rating, and clicking on it opens a window with detailed information, such as the title, description, and rating. While developing the project, the priority was on code readability and modularity to ensure ease of understanding and future scalability. My goal was to create a developer-friendly environment that facilitates efficient work on the application. "
+          }
+        />
+
+        <ProjectsCard
           url={"https://kamisia.github.io/trip-planner-app/"}
           img={TripPlanner}
           github={"https://github.com/Kamisia/trip-planner-app"}
           title={"Trip Planner"}
-          text={"The Planner Trip application is still under development. Currently, it features a loading page with two buttons: Login and SignUp. Clicking the respective button displays either the login or registration form, both validated using the Formik library. Unfortunately, the functionality of these forms is not yet fully implemented. The application is built in React using JavaScript."}
+          text={
+            "The Planner Trip application is still under development. Currently, it features a loading page with two buttons: Login and SignUp. Clicking the respective button displays either the login or registration form, both validated using the Formik library. Unfortunately, the functionality of these forms is not yet fully implemented. The application is built in React using JavaScript."
+          }
+        />
+
+        <ProjectsCard
+          url={" https://kamisia.github.io/QOTD_APP/"}
+          img={QOTDScreenshot}
+          github={"https://github.com/Kamisia/QOTD_APP"}
+          title={"Your Quote Of The Day"}
+          text={
+            "The 'Your Quote Of The Day' project is the result of my work using React.js technology. Through this application, users can enjoy randomly generated quotes via the quotableAPI. By ensuring responsiveness, I have ensured that the interface is comfortable and user-friendly on various devices. Additionally, I organized the code in a way that will facilitate future development of the project."
+          }
         />
       </div>
     </section>
