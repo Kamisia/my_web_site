@@ -6,7 +6,7 @@ const About = () => {
       <SectionTitle text="About" />
       <div className="align-element grid lg:grid-cols-2 items-center gap-16 p-2">
         <article>
-          <div className="text-gray mt-5 leading-loose p-5 text-justify">
+          <div className="text-darkGray mt-5 leading-loose p-5 text-justify">
             <p>
               I am passionate about
               <span className="font-bold">

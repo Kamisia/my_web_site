@@ -9,8 +9,8 @@ const ButtonCVDownload = () => {
       >
         <a
           href={cv}
-          download="Kamila Samczuk - Curriculum Vitea"
-          className="text-s text-center font-thin"
+          download="Kamila Samczuk - Curriculum Vitae"
+          className="text-s text-center font-bold "
         >
           Download CV
         </a>

@@ -13,7 +13,7 @@ const SkillsCard = ({ icon, title, text, icon2, subtitle }) => {
         </div>
         <div className="p-1">{icon2}</div>
       </div>
-      <p className="mt-auto mb-auto text-gray text-justify"> {text}</p>
+      <p className="mt-auto mb-auto text-darkGray text-justify"> {text}</p>
     </article>
   );
 };

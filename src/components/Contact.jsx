@@ -3,7 +3,7 @@ import SocialButtonComponent from "./SocialButtonComponent";
 
 const Contact = () => {
   return (
-    <section className="bg-darkMain  text-white algin-element" id="contact">
+    <section className="bg-main pt-10  text-white algin-element" id="contact">
       <h1 className="text-3xl text-center font-thin mb-2 tracking-wider uppercase">
         Contact
       </h1>
